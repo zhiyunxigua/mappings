@@ -48,13 +48,13 @@
     "can_break_with_hand": false
   },
   "minecraft:grass_block[snowy=true]": {
-    "bedrock_identifier": "minecraft:grass",
+    "bedrock_identifier": "minecraft:grass_block",
     "block_hardness": 0.6,
     "collision_index": 1,
     "can_break_with_hand": true
   },
   "minecraft:grass_block[snowy=false]": {
-    "bedrock_identifier": "minecraft:grass",
+    "bedrock_identifier": "minecraft:grass_block",
     "block_hardness": 0.6,
     "collision_index": 1,
     "can_break_with_hand": true
@@ -156,123 +156,113 @@
     "can_break_with_hand": true
   },
   "minecraft:oak_sapling[stage=0]": {
-    "bedrock_identifier": "minecraft:sapling",
+    "bedrock_identifier": "minecraft:oak_sapling",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "pottable": true,
     "bedrock_states": {
-      "age_bit": false,
-      "sapling_type": "oak"
+      "age_bit": false
     }
   },
   "minecraft:oak_sapling[stage=1]": {
-    "bedrock_identifier": "minecraft:sapling",
+    "bedrock_identifier": "minecraft:oak_sapling",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "pottable": true,
     "bedrock_states": {
-      "age_bit": true,
-      "sapling_type": "oak"
+      "age_bit": true
     }
   },
   "minecraft:spruce_sapling[stage=0]": {
-    "bedrock_identifier": "minecraft:sapling",
+    "bedrock_identifier": "minecraft:spruce_sapling",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "pottable": true,
     "bedrock_states": {
-      "age_bit": false,
-      "sapling_type": "spruce"
+      "age_bit": false
     }
   },
   "minecraft:spruce_sapling[stage=1]": {
-    "bedrock_identifier": "minecraft:sapling",
+    "bedrock_identifier": "minecraft:spruce_sapling",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "pottable": true,
     "bedrock_states": {
-      "age_bit": true,
-      "sapling_type": "spruce"
+      "age_bit": true
     }
   },
   "minecraft:birch_sapling[stage=0]": {
-    "bedrock_identifier": "minecraft:sapling",
+    "bedrock_identifier": "minecraft:birch_sapling",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "pottable": true,
     "bedrock_states": {
-      "age_bit": false,
-      "sapling_type": "birch"
+      "age_bit": false
     }
   },
   "minecraft:birch_sapling[stage=1]": {
-    "bedrock_identifier": "minecraft:sapling",
+    "bedrock_identifier": "minecraft:birch_sapling",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "pottable": true,
     "bedrock_states": {
-      "age_bit": true,
-      "sapling_type": "birch"
+      "age_bit": true
     }
   },
   "minecraft:jungle_sapling[stage=0]": {
-    "bedrock_identifier": "minecraft:sapling",
+    "bedrock_identifier": "minecraft:jungle_sapling",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "pottable": true,
     "bedrock_states": {
-      "age_bit": false,
-      "sapling_type": "jungle"
+      "age_bit": false
     }
   },
   "minecraft:jungle_sapling[stage=1]": {
-    "bedrock_identifier": "minecraft:sapling",
+    "bedrock_identifier": "minecraft:jungle_sapling",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "pottable": true,
     "bedrock_states": {
-      "age_bit": true,
-      "sapling_type": "jungle"
+      "age_bit": true
     }
   },
   "minecraft:acacia_sapling[stage=0]": {
-    "bedrock_identifier": "minecraft:sapling",
+    "bedrock_identifier": "minecraft:acacia_sapling",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "pottable": true,
     "bedrock_states": {
-      "age_bit": false,
-      "sapling_type": "acacia"
+      "age_bit": false
     }
   },
   "minecraft:acacia_sapling[stage=1]": {
-    "bedrock_identifier": "minecraft:sapling",
+    "bedrock_identifier": "minecraft:acacia_sapling",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "pottable": true,
     "bedrock_states": {
-      "age_bit": true,
-      "sapling_type": "acacia"
+      "age_bit": true
     }
   },
   "minecraft:cherry_sapling[stage=0]": {
@@ -298,27 +288,25 @@
     }
   },
   "minecraft:dark_oak_sapling[stage=0]": {
-    "bedrock_identifier": "minecraft:sapling",
+    "bedrock_identifier": "minecraft:dark_oak_sapling",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "pottable": true,
     "bedrock_states": {
-      "age_bit": false,
-      "sapling_type": "dark_oak"
+      "age_bit": false
     }
   },
   "minecraft:dark_oak_sapling[stage=1]": {
-    "bedrock_identifier": "minecraft:sapling",
+    "bedrock_identifier": "minecraft:dark_oak_sapling",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "pottable": true,
     "bedrock_states": {
-      "age_bit": true,
-      "sapling_type": "dark_oak"
+      "age_bit": true
     }
   },
   "minecraft:mangrove_propagule[age=0,hanging=true,stage=0,waterlogged=true]": {
@@ -1818,168 +1806,138 @@
     }
   },
   "minecraft:oak_wood[axis=x]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:oak_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "x",
-      "wood_type": "oak"
+      "pillar_axis": "x"
     }
   },
   "minecraft:oak_wood[axis=y]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:oak_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "y",
-      "wood_type": "oak"
+      "pillar_axis": "y"
     }
   },
   "minecraft:oak_wood[axis=z]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:oak_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "z",
-      "wood_type": "oak"
+      "pillar_axis": "z"
     }
   },
   "minecraft:spruce_wood[axis=x]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:spruce_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "x",
-      "wood_type": "spruce"
+      "pillar_axis": "x"
     }
   },
   "minecraft:spruce_wood[axis=y]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:spruce_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "y",
-      "wood_type": "spruce"
+      "pillar_axis": "y"
     }
   },
   "minecraft:spruce_wood[axis=z]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:spruce_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "z",
-      "wood_type": "spruce"
+      "pillar_axis": "z"
     }
   },
   "minecraft:birch_wood[axis=x]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:birch_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "x",
-      "wood_type": "birch"
+      "pillar_axis": "x"
     }
   },
   "minecraft:birch_wood[axis=y]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:birch_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "y",
-      "wood_type": "birch"
+      "pillar_axis": "y"
     }
   },
   "minecraft:birch_wood[axis=z]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:birch_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "z",
-      "wood_type": "birch"
+      "pillar_axis": "z"
     }
   },
   "minecraft:jungle_wood[axis=x]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:jungle_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "x",
-      "wood_type": "jungle"
+      "pillar_axis": "x"
     }
   },
   "minecraft:jungle_wood[axis=y]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:jungle_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "y",
-      "wood_type": "jungle"
+      "pillar_axis": "y"
     }
   },
   "minecraft:jungle_wood[axis=z]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:jungle_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "z",
-      "wood_type": "jungle"
+      "pillar_axis": "z"
     }
   },
   "minecraft:acacia_wood[axis=x]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:acacia_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "x",
-      "wood_type": "acacia"
+      "pillar_axis": "x"
     }
   },
   "minecraft:acacia_wood[axis=y]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:acacia_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "y",
-      "wood_type": "acacia"
+      "pillar_axis": "y"
     }
   },
   "minecraft:acacia_wood[axis=z]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:acacia_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "z",
-      "wood_type": "acacia"
+      "pillar_axis": "z"
     }
   },
   "minecraft:cherry_wood[axis=x]": {
@@ -2013,36 +1971,30 @@
     }
   },
   "minecraft:dark_oak_wood[axis=x]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:dark_oak_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "x",
-      "wood_type": "dark_oak"
+      "pillar_axis": "x"
     }
   },
   "minecraft:dark_oak_wood[axis=y]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:dark_oak_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "y",
-      "wood_type": "dark_oak"
+      "pillar_axis": "y"
     }
   },
   "minecraft:dark_oak_wood[axis=z]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:dark_oak_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": false,
-      "pillar_axis": "z",
-      "wood_type": "dark_oak"
+      "pillar_axis": "z"
     }
   },
   "minecraft:mangrove_wood[axis=x]": {
@@ -2076,168 +2028,138 @@
     }
   },
   "minecraft:stripped_oak_wood[axis=x]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_oak_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "x",
-      "wood_type": "oak"
+      "pillar_axis": "x"
     }
   },
   "minecraft:stripped_oak_wood[axis=y]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_oak_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "y",
-      "wood_type": "oak"
+      "pillar_axis": "y"
     }
   },
   "minecraft:stripped_oak_wood[axis=z]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_oak_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "z",
-      "wood_type": "oak"
+      "pillar_axis": "z"
     }
   },
   "minecraft:stripped_spruce_wood[axis=x]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_spruce_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "x",
-      "wood_type": "spruce"
+      "pillar_axis": "x"
     }
   },
   "minecraft:stripped_spruce_wood[axis=y]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_spruce_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "y",
-      "wood_type": "spruce"
+      "pillar_axis": "y"
     }
   },
   "minecraft:stripped_spruce_wood[axis=z]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_spruce_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "z",
-      "wood_type": "spruce"
+      "pillar_axis": "z"
     }
   },
   "minecraft:stripped_birch_wood[axis=x]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_birch_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "x",
-      "wood_type": "birch"
+      "pillar_axis": "x"
     }
   },
   "minecraft:stripped_birch_wood[axis=y]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_birch_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "y",
-      "wood_type": "birch"
+      "pillar_axis": "y"
     }
   },
   "minecraft:stripped_birch_wood[axis=z]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_birch_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "z",
-      "wood_type": "birch"
+      "pillar_axis": "z"
     }
   },
   "minecraft:stripped_jungle_wood[axis=x]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_jungle_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "x",
-      "wood_type": "jungle"
+      "pillar_axis": "x"
     }
   },
   "minecraft:stripped_jungle_wood[axis=y]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_jungle_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "y",
-      "wood_type": "jungle"
+      "pillar_axis": "y"
     }
   },
   "minecraft:stripped_jungle_wood[axis=z]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_jungle_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "z",
-      "wood_type": "jungle"
+      "pillar_axis": "z"
     }
   },
   "minecraft:stripped_acacia_wood[axis=x]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_acacia_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "x",
-      "wood_type": "acacia"
+      "pillar_axis": "x"
     }
   },
   "minecraft:stripped_acacia_wood[axis=y]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_acacia_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "y",
-      "wood_type": "acacia"
+      "pillar_axis": "y"
     }
   },
   "minecraft:stripped_acacia_wood[axis=z]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_acacia_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "z",
-      "wood_type": "acacia"
+      "pillar_axis": "z"
     }
   },
   "minecraft:stripped_cherry_wood[axis=x]": {
@@ -2268,36 +2190,30 @@
     }
   },
   "minecraft:stripped_dark_oak_wood[axis=x]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_dark_oak_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "x",
-      "wood_type": "dark_oak"
+      "pillar_axis": "x"
     }
   },
   "minecraft:stripped_dark_oak_wood[axis=y]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_dark_oak_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "y",
-      "wood_type": "dark_oak"
+      "pillar_axis": "y"
     }
   },
   "minecraft:stripped_dark_oak_wood[axis=z]": {
-    "bedrock_identifier": "minecraft:wood",
+    "bedrock_identifier": "minecraft:stripped_dark_oak_wood",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "stripped_bit": true,
-      "pillar_axis": "z",
-      "wood_type": "dark_oak"
+      "pillar_axis": "z"
     }
   },
   "minecraft:stripped_mangrove_wood[axis=x]": {
@@ -2328,1683 +2244,1543 @@
     }
   },
   "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=1,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=1,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=2,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=2,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=2,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=2,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=3,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=3,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=3,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=3,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=4,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=4,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=4,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=4,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=5,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=5,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=5,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=5,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=6,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=6,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=6,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=6,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=7,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=7,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:oak_leaves[distance=7,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "oak"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=1,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=1,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=1,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=1,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=2,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=2,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=2,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=2,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=3,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=3,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=3,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=3,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=4,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=4,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=4,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=4,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=5,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=5,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=5,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=5,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=6,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=6,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=6,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=6,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=7,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=7,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=7,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:spruce_leaves[distance=7,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:spruce_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "spruce"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=1,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=1,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=1,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=1,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=2,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=2,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=2,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=2,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=3,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=3,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=3,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=3,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=4,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=4,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=4,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=4,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=5,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=5,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=5,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=5,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=6,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=6,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=6,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=6,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=7,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=7,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=7,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:birch_leaves[distance=7,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:birch_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "birch"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=1,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=1,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=2,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=2,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=2,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=2,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=3,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=3,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=3,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=3,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=4,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=4,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=4,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=4,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=5,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=5,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=5,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=5,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=6,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=6,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=6,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=6,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=7,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=7,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=7,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:jungle_leaves[distance=7,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves",
+    "bedrock_identifier": "minecraft:jungle_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "old_leaf_type": "jungle"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=1,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=1,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=1,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=1,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=2,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=2,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=2,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=2,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=3,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=3,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=3,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=3,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=4,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=4,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=4,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=4,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=5,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=5,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=5,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=5,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=6,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=6,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=6,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=6,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=7,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=7,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=7,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:acacia_leaves[distance=7,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:acacia_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "acacia"
+      "update_bit": false
     }
   },
   "minecraft:cherry_leaves[distance=1,persistent=true,waterlogged=true]": {
@@ -4316,339 +4092,311 @@
     }
   },
   "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=1,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=1,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=2,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=2,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=2,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=2,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=3,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=3,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=3,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=3,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=4,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=4,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=4,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=4,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=5,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=5,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=5,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=5,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=6,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=6,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=6,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=6,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=7,persistent=true,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=7,persistent=true,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": true,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=7,persistent=false,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:dark_oak_leaves[distance=7,persistent=false,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:leaves2",
+    "bedrock_identifier": "minecraft:dark_oak_leaves",
     "block_hardness": 0.2,
     "collision_index": 1,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
       "persistent_bit": false,
-      "update_bit": false,
-      "new_leaf_type": "dark_oak"
+      "update_bit": false
     }
   },
   "minecraft:mangrove_leaves[distance=1,persistent=true,waterlogged=true]": {
@@ -18683,114 +18431,84 @@
     "pottable": true
   },
   "minecraft:poppy": {
-    "bedrock_identifier": "minecraft:red_flower",
+    "bedrock_identifier": "minecraft:poppy",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
-    "pottable": true,
-    "bedrock_states": {
-      "flower_type": "poppy"
-    }
+    "pottable": true
   },
   "minecraft:blue_orchid": {
-    "bedrock_identifier": "minecraft:red_flower",
+    "bedrock_identifier": "minecraft:blue_orchid",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
-    "pottable": true,
-    "bedrock_states": {
-      "flower_type": "orchid"
-    }
+    "pottable": true
   },
   "minecraft:allium": {
-    "bedrock_identifier": "minecraft:red_flower",
+    "bedrock_identifier": "minecraft:allium",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
-    "pottable": true,
-    "bedrock_states": {
-      "flower_type": "allium"
-    }
+    "pottable": true
   },
   "minecraft:azure_bluet": {
-    "bedrock_identifier": "minecraft:red_flower",
+    "bedrock_identifier": "minecraft:azure_bluet",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
-    "pottable": true,
-    "bedrock_states": {
-      "flower_type": "houstonia"
-    }
+    "pottable": true
   },
   "minecraft:red_tulip": {
-    "bedrock_identifier": "minecraft:red_flower",
+    "bedrock_identifier": "minecraft:red_tulip",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
-    "pottable": true,
-    "bedrock_states": {
-      "flower_type": "tulip_red"
-    }
+    "pottable": true
   },
   "minecraft:orange_tulip": {
-    "bedrock_identifier": "minecraft:red_flower",
+    "bedrock_identifier": "minecraft:orange_tulip",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
-    "pottable": true,
-    "bedrock_states": {
-      "flower_type": "tulip_orange"
-    }
+    "pottable": true
   },
   "minecraft:white_tulip": {
-    "bedrock_identifier": "minecraft:red_flower",
+    "bedrock_identifier": "minecraft:white_tulip",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
-    "pottable": true,
-    "bedrock_states": {
-      "flower_type": "tulip_white"
-    }
+    "pottable": true
   },
   "minecraft:pink_tulip": {
-    "bedrock_identifier": "minecraft:red_flower",
+    "bedrock_identifier": "minecraft:pink_tulip",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
-    "pottable": true,
-    "bedrock_states": {
-      "flower_type": "tulip_pink"
-    }
+    "pottable": true
   },
   "minecraft:oxeye_daisy": {
-    "bedrock_identifier": "minecraft:red_flower",
+    "bedrock_identifier": "minecraft:oxeye_daisy",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
-    "pottable": true,
-    "bedrock_states": {
-      "flower_type": "oxeye"
-    }
+    "pottable": true
   },
   "minecraft:cornflower": {
-    "bedrock_identifier": "minecraft:red_flower",
+    "bedrock_identifier": "minecraft:cornflower",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
-    "pottable": true,
-    "bedrock_states": {
-      "flower_type": "cornflower"
-    }
+    "pottable": true
   },
   "minecraft:wither_rose": {
     "bedrock_identifier": "minecraft:wither_rose",
@@ -18801,15 +18519,12 @@
     "pottable": true
   },
   "minecraft:lily_of_the_valley": {
-    "bedrock_identifier": "minecraft:red_flower",
+    "bedrock_identifier": "minecraft:lily_of_the_valley",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
-    "pottable": true,
-    "bedrock_states": {
-      "flower_type": "lily_of_the_valley"
-    }
+    "pottable": true
   },
   "minecraft:brown_mushroom": {
     "bedrock_identifier": "minecraft:brown_mushroom",
@@ -116526,302 +116241,272 @@
     }
   },
   "minecraft:oak_slab[type=top,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:oak_slab",
     "block_hardness": 2.0,
     "collision_index": 178,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "oak",
       "minecraft:vertical_half": "top"
     }
   },
   "minecraft:oak_slab[type=top,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:oak_slab",
     "block_hardness": 2.0,
     "collision_index": 178,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "oak",
       "minecraft:vertical_half": "top"
     }
   },
   "minecraft:oak_slab[type=bottom,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:oak_slab",
     "block_hardness": 2.0,
     "collision_index": 63,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "oak",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:oak_slab[type=bottom,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:oak_slab",
     "block_hardness": 2.0,
     "collision_index": 63,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "oak",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:oak_slab[type=double,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:double_wooden_slab",
+    "bedrock_identifier": "minecraft:oak_double_slab",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "oak",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:oak_slab[type=double,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:double_wooden_slab",
+    "bedrock_identifier": "minecraft:oak_double_slab",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "oak",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:spruce_slab[type=top,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:spruce_slab",
     "block_hardness": 2.0,
     "collision_index": 178,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "spruce",
       "minecraft:vertical_half": "top"
     }
   },
   "minecraft:spruce_slab[type=top,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:spruce_slab",
     "block_hardness": 2.0,
     "collision_index": 178,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "spruce",
       "minecraft:vertical_half": "top"
     }
   },
   "minecraft:spruce_slab[type=bottom,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:spruce_slab",
     "block_hardness": 2.0,
     "collision_index": 63,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "spruce",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:spruce_slab[type=bottom,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:spruce_slab",
     "block_hardness": 2.0,
     "collision_index": 63,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "spruce",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:spruce_slab[type=double,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:double_wooden_slab",
+    "bedrock_identifier": "minecraft:spruce_double_slab",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "spruce",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:spruce_slab[type=double,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:double_wooden_slab",
+    "bedrock_identifier": "minecraft:spruce_double_slab",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "spruce",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:birch_slab[type=top,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:birch_slab",
     "block_hardness": 2.0,
     "collision_index": 178,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "birch",
       "minecraft:vertical_half": "top"
     }
   },
   "minecraft:birch_slab[type=top,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:birch_slab",
     "block_hardness": 2.0,
     "collision_index": 178,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "birch",
       "minecraft:vertical_half": "top"
     }
   },
   "minecraft:birch_slab[type=bottom,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:birch_slab",
     "block_hardness": 2.0,
     "collision_index": 63,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "birch",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:birch_slab[type=bottom,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:birch_slab",
     "block_hardness": 2.0,
     "collision_index": 63,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "birch",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:birch_slab[type=double,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:double_wooden_slab",
+    "bedrock_identifier": "minecraft:birch_double_slab",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "birch",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:birch_slab[type=double,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:double_wooden_slab",
+    "bedrock_identifier": "minecraft:birch_double_slab",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "birch",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:jungle_slab[type=top,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:jungle_slab",
     "block_hardness": 2.0,
     "collision_index": 178,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "jungle",
       "minecraft:vertical_half": "top"
     }
   },
   "minecraft:jungle_slab[type=top,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:jungle_slab",
     "block_hardness": 2.0,
     "collision_index": 178,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "jungle",
       "minecraft:vertical_half": "top"
     }
   },
   "minecraft:jungle_slab[type=bottom,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:jungle_slab",
     "block_hardness": 2.0,
     "collision_index": 63,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "jungle",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:jungle_slab[type=bottom,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:jungle_slab",
     "block_hardness": 2.0,
     "collision_index": 63,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "jungle",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:jungle_slab[type=double,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:double_wooden_slab",
+    "bedrock_identifier": "minecraft:jungle_double_slab",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "jungle",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:jungle_slab[type=double,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:double_wooden_slab",
+    "bedrock_identifier": "minecraft:jungle_double_slab",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "jungle",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:acacia_slab[type=top,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:acacia_slab",
     "block_hardness": 2.0,
     "collision_index": 178,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "acacia",
       "minecraft:vertical_half": "top"
     }
   },
   "minecraft:acacia_slab[type=top,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:acacia_slab",
     "block_hardness": 2.0,
     "collision_index": 178,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "acacia",
       "minecraft:vertical_half": "top"
     }
   },
   "minecraft:acacia_slab[type=bottom,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:acacia_slab",
     "block_hardness": 2.0,
     "collision_index": 63,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "acacia",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:acacia_slab[type=bottom,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:acacia_slab",
     "block_hardness": 2.0,
     "collision_index": 63,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "acacia",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:acacia_slab[type=double,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:double_wooden_slab",
+    "bedrock_identifier": "minecraft:acacia_double_slab",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "acacia",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:acacia_slab[type=double,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:double_wooden_slab",
+    "bedrock_identifier": "minecraft:acacia_double_slab",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "acacia",
       "minecraft:vertical_half": "bottom"
     }
   },
@@ -116880,62 +116565,56 @@
     }
   },
   "minecraft:dark_oak_slab[type=top,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:dark_oak_slab",
     "block_hardness": 2.0,
     "collision_index": 178,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "dark_oak",
       "minecraft:vertical_half": "top"
     }
   },
   "minecraft:dark_oak_slab[type=top,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:dark_oak_slab",
     "block_hardness": 2.0,
     "collision_index": 178,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "dark_oak",
       "minecraft:vertical_half": "top"
     }
   },
   "minecraft:dark_oak_slab[type=bottom,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:dark_oak_slab",
     "block_hardness": 2.0,
     "collision_index": 63,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "dark_oak",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:dark_oak_slab[type=bottom,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:wooden_slab",
+    "bedrock_identifier": "minecraft:dark_oak_slab",
     "block_hardness": 2.0,
     "collision_index": 63,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "dark_oak",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:dark_oak_slab[type=double,waterlogged=true]": {
-    "bedrock_identifier": "minecraft:double_wooden_slab",
+    "bedrock_identifier": "minecraft:dark_oak_double_slab",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "dark_oak",
       "minecraft:vertical_half": "bottom"
     }
   },
   "minecraft:dark_oak_slab[type=double,waterlogged=false]": {
-    "bedrock_identifier": "minecraft:double_wooden_slab",
+    "bedrock_identifier": "minecraft:dark_oak_double_slab",
     "block_hardness": 2.0,
     "collision_index": 1,
     "can_break_with_hand": true,
     "bedrock_states": {
-      "wood_type": "dark_oak",
       "minecraft:vertical_half": "bottom"
     }
   },
@@ -133505,212 +133184,192 @@
     "can_break_with_hand": true
   },
   "minecraft:dead_tube_coral_fan[waterlogged=true]": {
-    "bedrock_identifier": "minecraft:coral_fan_dead",
+    "bedrock_identifier": "minecraft:dead_tube_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "can_break_with_hand": false,
     "bedrock_states": {
-      "coral_color": "blue",
       "coral_fan_direction": 0
     }
   },
   "minecraft:dead_tube_coral_fan[waterlogged=false]": {
-    "bedrock_identifier": "minecraft:coral_fan_dead",
+    "bedrock_identifier": "minecraft:dead_tube_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "can_break_with_hand": false,
     "bedrock_states": {
-      "coral_color": "blue",
       "coral_fan_direction": 0
     }
   },
   "minecraft:dead_brain_coral_fan[waterlogged=true]": {
-    "bedrock_identifier": "minecraft:coral_fan_dead",
+    "bedrock_identifier": "minecraft:dead_brain_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "can_break_with_hand": false,
     "bedrock_states": {
-      "coral_color": "pink",
       "coral_fan_direction": 0
     }
   },
   "minecraft:dead_brain_coral_fan[waterlogged=false]": {
-    "bedrock_identifier": "minecraft:coral_fan_dead",
+    "bedrock_identifier": "minecraft:dead_brain_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "can_break_with_hand": false,
     "bedrock_states": {
-      "coral_color": "pink",
       "coral_fan_direction": 0
     }
   },
   "minecraft:dead_bubble_coral_fan[waterlogged=true]": {
-    "bedrock_identifier": "minecraft:coral_fan_dead",
+    "bedrock_identifier": "minecraft:dead_bubble_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "can_break_with_hand": false,
     "bedrock_states": {
-      "coral_color": "purple",
       "coral_fan_direction": 0
     }
   },
   "minecraft:dead_bubble_coral_fan[waterlogged=false]": {
-    "bedrock_identifier": "minecraft:coral_fan_dead",
+    "bedrock_identifier": "minecraft:dead_bubble_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "can_break_with_hand": false,
     "bedrock_states": {
-      "coral_color": "purple",
       "coral_fan_direction": 0
     }
   },
   "minecraft:dead_fire_coral_fan[waterlogged=true]": {
-    "bedrock_identifier": "minecraft:coral_fan_dead",
+    "bedrock_identifier": "minecraft:dead_fire_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "can_break_with_hand": false,
     "bedrock_states": {
-      "coral_color": "red",
       "coral_fan_direction": 0
     }
   },
   "minecraft:dead_fire_coral_fan[waterlogged=false]": {
-    "bedrock_identifier": "minecraft:coral_fan_dead",
+    "bedrock_identifier": "minecraft:dead_fire_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "can_break_with_hand": false,
     "bedrock_states": {
-      "coral_color": "red",
       "coral_fan_direction": 0
     }
   },
   "minecraft:dead_horn_coral_fan[waterlogged=true]": {
-    "bedrock_identifier": "minecraft:coral_fan_dead",
+    "bedrock_identifier": "minecraft:dead_horn_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "can_break_with_hand": false,
     "bedrock_states": {
-      "coral_color": "yellow",
       "coral_fan_direction": 0
     }
   },
   "minecraft:dead_horn_coral_fan[waterlogged=false]": {
-    "bedrock_identifier": "minecraft:coral_fan_dead",
+    "bedrock_identifier": "minecraft:dead_horn_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "can_break_with_hand": false,
     "bedrock_states": {
-      "coral_color": "yellow",
       "coral_fan_direction": 0
     }
   },
   "minecraft:tube_coral_fan[waterlogged=true]": {
-    "bedrock_identifier": "minecraft:coral_fan",
+    "bedrock_identifier": "minecraft:tube_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
-      "coral_color": "blue",
       "coral_fan_direction": 0
     }
   },
   "minecraft:tube_coral_fan[waterlogged=false]": {
-    "bedrock_identifier": "minecraft:coral_fan",
+    "bedrock_identifier": "minecraft:tube_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
-      "coral_color": "blue",
       "coral_fan_direction": 0
     }
   },
   "minecraft:brain_coral_fan[waterlogged=true]": {
-    "bedrock_identifier": "minecraft:coral_fan",
+    "bedrock_identifier": "minecraft:brain_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
-      "coral_color": "pink",
       "coral_fan_direction": 0
     }
   },
   "minecraft:brain_coral_fan[waterlogged=false]": {
-    "bedrock_identifier": "minecraft:coral_fan",
+    "bedrock_identifier": "minecraft:brain_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
-      "coral_color": "pink",
       "coral_fan_direction": 0
     }
   },
   "minecraft:bubble_coral_fan[waterlogged=true]": {
-    "bedrock_identifier": "minecraft:coral_fan",
+    "bedrock_identifier": "minecraft:bubble_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
-      "coral_color": "purple",
       "coral_fan_direction": 0
     }
   },
   "minecraft:bubble_coral_fan[waterlogged=false]": {
-    "bedrock_identifier": "minecraft:coral_fan",
+    "bedrock_identifier": "minecraft:bubble_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
-      "coral_color": "purple",
       "coral_fan_direction": 0
     }
   },
   "minecraft:fire_coral_fan[waterlogged=true]": {
-    "bedrock_identifier": "minecraft:coral_fan",
+    "bedrock_identifier": "minecraft:fire_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
-      "coral_color": "red",
       "coral_fan_direction": 0
     }
   },
   "minecraft:fire_coral_fan[waterlogged=false]": {
-    "bedrock_identifier": "minecraft:coral_fan",
+    "bedrock_identifier": "minecraft:fire_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
-      "coral_color": "red",
       "coral_fan_direction": 0
     }
   },
   "minecraft:horn_coral_fan[waterlogged=true]": {
-    "bedrock_identifier": "minecraft:coral_fan",
+    "bedrock_identifier": "minecraft:horn_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
-      "coral_color": "yellow",
       "coral_fan_direction": 0
     }
   },
   "minecraft:horn_coral_fan[waterlogged=false]": {
-    "bedrock_identifier": "minecraft:coral_fan",
+    "bedrock_identifier": "minecraft:horn_coral_fan",
     "block_hardness": 0.0,
     "collision_index": 0,
     "piston_behavior": "destroy",
     "can_break_with_hand": true,
     "bedrock_states": {
-      "coral_color": "yellow",
       "coral_fan_direction": 0
     }
   },
@@ -134830,8 +134489,7 @@
     "pick_item": "minecraft:bamboo",
     "can_break_with_hand": true,
     "bedrock_states": {
-      "age_bit": false,
-      "sapling_type": "oak"
+      "age_bit": false
     }
   },
   "minecraft:bamboo[age=0,leaves=none,stage=0]": {
@@ -301138,46 +300796,488 @@
       "triggered_bit": false
     }
   },
-  "minecraft:trial_spawner[trial_spawner_state=inactive]": {
-    "bedrock_identifier": "minecraft:mob_spawner",
+  "minecraft:trial_spawner[ominous=true,trial_spawner_state=inactive]": {
+    "bedrock_identifier": "minecraft:trial_spawner",
     "block_hardness": 50.0,
     "collision_index": 1,
     "has_block_entity": true,
-    "can_break_with_hand": false
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "trial_spawner_state": 0
+    }
   },
-  "minecraft:trial_spawner[trial_spawner_state=waiting_for_players]": {
-    "bedrock_identifier": "minecraft:mob_spawner",
+  "minecraft:trial_spawner[ominous=true,trial_spawner_state=waiting_for_players]": {
+    "bedrock_identifier": "minecraft:trial_spawner",
     "block_hardness": 50.0,
     "collision_index": 1,
     "has_block_entity": true,
-    "can_break_with_hand": false
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "trial_spawner_state": 1
+    }
   },
-  "minecraft:trial_spawner[trial_spawner_state=active]": {
-    "bedrock_identifier": "minecraft:mob_spawner",
+  "minecraft:trial_spawner[ominous=true,trial_spawner_state=active]": {
+    "bedrock_identifier": "minecraft:trial_spawner",
     "block_hardness": 50.0,
     "collision_index": 1,
     "has_block_entity": true,
-    "can_break_with_hand": false
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "trial_spawner_state": 2
+    }
   },
-  "minecraft:trial_spawner[trial_spawner_state=waiting_for_reward_ejection]": {
-    "bedrock_identifier": "minecraft:mob_spawner",
+  "minecraft:trial_spawner[ominous=true,trial_spawner_state=waiting_for_reward_ejection]": {
+    "bedrock_identifier": "minecraft:trial_spawner",
     "block_hardness": 50.0,
     "collision_index": 1,
     "has_block_entity": true,
-    "can_break_with_hand": false
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "trial_spawner_state": 3
+    }
   },
-  "minecraft:trial_spawner[trial_spawner_state=ejecting_reward]": {
-    "bedrock_identifier": "minecraft:mob_spawner",
+  "minecraft:trial_spawner[ominous=true,trial_spawner_state=ejecting_reward]": {
+    "bedrock_identifier": "minecraft:trial_spawner",
     "block_hardness": 50.0,
     "collision_index": 1,
     "has_block_entity": true,
-    "can_break_with_hand": false
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "trial_spawner_state": 4
+    }
   },
-  "minecraft:trial_spawner[trial_spawner_state=cooldown]": {
-    "bedrock_identifier": "minecraft:mob_spawner",
+  "minecraft:trial_spawner[ominous=true,trial_spawner_state=cooldown]": {
+    "bedrock_identifier": "minecraft:trial_spawner",
     "block_hardness": 50.0,
     "collision_index": 1,
     "has_block_entity": true,
-    "can_break_with_hand": false
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "trial_spawner_state": 5
+    }
+  },
+  "minecraft:trial_spawner[ominous=false,trial_spawner_state=inactive]": {
+    "bedrock_identifier": "minecraft:trial_spawner",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "trial_spawner_state": 0
+    }
+  },
+  "minecraft:trial_spawner[ominous=false,trial_spawner_state=waiting_for_players]": {
+    "bedrock_identifier": "minecraft:trial_spawner",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "trial_spawner_state": 1
+    }
+  },
+  "minecraft:trial_spawner[ominous=false,trial_spawner_state=active]": {
+    "bedrock_identifier": "minecraft:trial_spawner",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "trial_spawner_state": 2
+    }
+  },
+  "minecraft:trial_spawner[ominous=false,trial_spawner_state=waiting_for_reward_ejection]": {
+    "bedrock_identifier": "minecraft:trial_spawner",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "trial_spawner_state": 3
+    }
+  },
+  "minecraft:trial_spawner[ominous=false,trial_spawner_state=ejecting_reward]": {
+    "bedrock_identifier": "minecraft:trial_spawner",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "trial_spawner_state": 4
+    }
+  },
+  "minecraft:trial_spawner[ominous=false,trial_spawner_state=cooldown]": {
+    "bedrock_identifier": "minecraft:trial_spawner",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "trial_spawner_state": 5
+    }
+  },
+  "minecraft:vault[facing=north,ominous=true,vault_state=inactive]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "north",
+      "vault_state": "inactive"
+    }
+  },
+  "minecraft:vault[facing=north,ominous=true,vault_state=active]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "north",
+      "vault_state": "active"
+    }
+  },
+  "minecraft:vault[facing=north,ominous=true,vault_state=unlocking]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "north",
+      "vault_state": "unlocking"
+    }
+  },
+  "minecraft:vault[facing=north,ominous=true,vault_state=ejecting]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "north",
+      "vault_state": "ejecting"
+    }
+  },
+  "minecraft:vault[facing=north,ominous=false,vault_state=inactive]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "north",
+      "vault_state": "inactive"
+    }
+  },
+  "minecraft:vault[facing=north,ominous=false,vault_state=active]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "north",
+      "vault_state": "active"
+    }
+  },
+  "minecraft:vault[facing=north,ominous=false,vault_state=unlocking]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "north",
+      "vault_state": "unlocking"
+    }
+  },
+  "minecraft:vault[facing=north,ominous=false,vault_state=ejecting]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "north",
+      "vault_state": "ejecting"
+    }
+  },
+  "minecraft:vault[facing=south,ominous=true,vault_state=inactive]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "south",
+      "vault_state": "inactive"
+    }
+  },
+  "minecraft:vault[facing=south,ominous=true,vault_state=active]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "south",
+      "vault_state": "active"
+    }
+  },
+  "minecraft:vault[facing=south,ominous=true,vault_state=unlocking]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "south",
+      "vault_state": "unlocking"
+    }
+  },
+  "minecraft:vault[facing=south,ominous=true,vault_state=ejecting]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "south",
+      "vault_state": "ejecting"
+    }
+  },
+  "minecraft:vault[facing=south,ominous=false,vault_state=inactive]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "south",
+      "vault_state": "inactive"
+    }
+  },
+  "minecraft:vault[facing=south,ominous=false,vault_state=active]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "south",
+      "vault_state": "active"
+    }
+  },
+  "minecraft:vault[facing=south,ominous=false,vault_state=unlocking]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "south",
+      "vault_state": "unlocking"
+    }
+  },
+  "minecraft:vault[facing=south,ominous=false,vault_state=ejecting]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "south",
+      "vault_state": "ejecting"
+    }
+  },
+  "minecraft:vault[facing=west,ominous=true,vault_state=inactive]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "west",
+      "vault_state": "inactive"
+    }
+  },
+  "minecraft:vault[facing=west,ominous=true,vault_state=active]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "west",
+      "vault_state": "active"
+    }
+  },
+  "minecraft:vault[facing=west,ominous=true,vault_state=unlocking]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "west",
+      "vault_state": "unlocking"
+    }
+  },
+  "minecraft:vault[facing=west,ominous=true,vault_state=ejecting]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "west",
+      "vault_state": "ejecting"
+    }
+  },
+  "minecraft:vault[facing=west,ominous=false,vault_state=inactive]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "west",
+      "vault_state": "inactive"
+    }
+  },
+  "minecraft:vault[facing=west,ominous=false,vault_state=active]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "west",
+      "vault_state": "active"
+    }
+  },
+  "minecraft:vault[facing=west,ominous=false,vault_state=unlocking]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "west",
+      "vault_state": "unlocking"
+    }
+  },
+  "minecraft:vault[facing=west,ominous=false,vault_state=ejecting]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "west",
+      "vault_state": "ejecting"
+    }
+  },
+  "minecraft:vault[facing=east,ominous=true,vault_state=inactive]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "east",
+      "vault_state": "inactive"
+    }
+  },
+  "minecraft:vault[facing=east,ominous=true,vault_state=active]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "east",
+      "vault_state": "active"
+    }
+  },
+  "minecraft:vault[facing=east,ominous=true,vault_state=unlocking]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "east",
+      "vault_state": "unlocking"
+    }
+  },
+  "minecraft:vault[facing=east,ominous=true,vault_state=ejecting]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "east",
+      "vault_state": "ejecting"
+    }
+  },
+  "minecraft:vault[facing=east,ominous=false,vault_state=inactive]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "east",
+      "vault_state": "inactive"
+    }
+  },
+  "minecraft:vault[facing=east,ominous=false,vault_state=active]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "east",
+      "vault_state": "active"
+    }
+  },
+  "minecraft:vault[facing=east,ominous=false,vault_state=unlocking]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "east",
+      "vault_state": "unlocking"
+    }
+  },
+  "minecraft:vault[facing=east,ominous=false,vault_state=ejecting]": {
+    "bedrock_identifier": "minecraft:vault",
+    "block_hardness": 50.0,
+    "collision_index": 1,
+    "has_block_entity": true,
+    "can_break_with_hand": false,
+    "bedrock_states": {
+      "minecraft:cardinal_direction": "east",
+      "vault_state": "ejecting"
+    }
+  },
+  "minecraft:heavy_core[waterlogged=true]": {
+    "bedrock_identifier": "minecraft:heavy_core",
+    "block_hardness": 10.0,
+    "collision_index": 161,
+    "can_break_with_hand": true
+  },
+  "minecraft:heavy_core[waterlogged=false]": {
+    "bedrock_identifier": "minecraft:heavy_core",
+    "block_hardness": 10.0,
+    "collision_index": 161,
+    "can_break_with_hand": true
   }
 }
