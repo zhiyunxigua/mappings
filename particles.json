@@ -1,8 +1,4 @@
 {
-	"AMBIENT_ENTITY_EFFECT": {
-		"eventType": "MOB_SPELL_AMBIENT",
-		"bedrockId": "minecraft:mobspell_emitter"
-	},
 	"ANGRY_VILLAGER": {
 		"eventType": "VILLAGER_ANGRY",
 		"bedrockId": "minecraft:villager_angry"
@@ -12,6 +8,9 @@
 	},
 	"BLOCK": {
 		"eventType": "TERRAIN"
+	},
+	"BLOCK_CRUMBLE": {
+		"eventType": "CREAKING_CRUMBLE"
 	},
 	"BLOCK_MARKER": {},
 	"BUBBLE": {
@@ -34,6 +33,7 @@
 		"bedrockId": "minecraft:campfire_tall_smoke_particle"
 	},
 	"CHERRY_LEAVES": {
+		"eventType": "CHERRY_LEAVES",
 		"bedrockId": "minecraft:cherry_leaves_particle"
 	},
 	"CLOUD": {
@@ -92,6 +92,11 @@
 	},
 	"DUST_COLOR_TRANSITION": {
 		"eventType": "RED_DUST"
+	},
+	"DUST_PILLAR": {},
+	"DUST_PLUME": {
+		"eventType": "DUST_PLUME",
+		"bedrockId": "minecraft:dust_plume"
 	},
 	"EFFECT": {
 		"bedrockId": "minecraft:splash_spell_emitter"
@@ -158,8 +163,10 @@
 	"FALLING_WATER": {
 		"bedrockId": "minecraft:water_splash_particle"
 	},
+	"FIREFLY": {
+		"bedrockId": "minecraft:firefly_particle"
+	},
 	"FIREWORK": {
-		"eventType": "FIREWORKS_STARTER",
 		"bedrockId": "minecraft:sparkler_emitter"
 	},
 	"FISHING": {
@@ -179,6 +186,11 @@
 	"GLOW_SQUID_INK": {
 		"eventType": "INK"
 	},
+	"GUST": {},
+	"GUST_EMITTER_LARGE": {},
+	"GUST_EMITTER_SMALL": {
+		"eventType": "PARTICLE_WIND_EXPLOSION"
+	},
 	"HAPPY_VILLAGER": {
 		"eventType": "VILLAGER_HAPPY",
 		"bedrockId": "minecraft:villager_happy"
@@ -187,6 +199,9 @@
 		"eventType": "HEART",
 		"bedrockId": "minecraft:heart_particle"
 	},
+	"INFESTED": {
+		"bedrockId": "minecraft:infested_emitter"
+	},
 	"INSTANT_EFFECT": {
 		"eventType": "MOB_SPELL_INSTANTANEOUS",
 		"bedrockId": "minecraft:mobspell_emitter"
@@ -194,6 +209,9 @@
 	"ITEM": {
 		"eventType": "ICON_CRACK",
 		"bedrockId": "minecraft:breaking_item_icon"
+	},
+	"ITEM_COBWEB": {
+		"eventType": "ANIMATION_SPAWN_COBWEB"
 	},
 	"ITEM_SLIME": {
 		"eventType": "SLIME"
@@ -228,6 +246,12 @@
 		"eventType": "NOTE",
 		"bedrockId": "minecraft:note_particle"
 	},
+	"OMINOUS_SPAWNING": {
+		"bedrockId": "minecraft:ominous_spawning_particle"
+	},
+	"PALE_OAK_LEAVES": {
+		"eventType": "PALE_OAK_LEAVES"
+	},
 	"POOF": {
 		"eventType": "EXPLODE",
 		"bedrockId": "minecraft:explosion_manual"
@@ -235,6 +259,9 @@
 	"PORTAL": {
 		"eventType": "PORTAL",
 		"bedrockId": "minecraft:mob_portal"
+	},
+	"RAID_OMEN": {
+		"bedrockId": "minecraft:raid_omen_ambient"
 	},
 	"RAIN": {
 		"eventType": "RAIN_SPLASH"
@@ -262,6 +289,7 @@
 	"SMALL_FLAME": {
 		"bedrockId": "minecraft:candle_flame_particle"
 	},
+	"SMALL_GUST": {},
 	"SMOKE": {
 		"eventType": "SMOKE"
 	},
@@ -299,12 +327,28 @@
 	"SWEEP_ATTACK": {
 		"bedrockId": "geyseropt:sweep_attack"
 	},
+	"TINTED_LEAVES": {
+		"bedrockId": "minecraft:biome_tinted_leaves_particle"
+	},
 	"TOTEM_OF_UNDYING": {
 		"eventType": "TOTEM",
 		"bedrockId": "minecraft:totem_particle"
 	},
+	"TRAIL": {},
+	"TRIAL_OMEN": {
+		"bedrockId": "minecraft:trial_omen_emitter"
+	},
+	"TRIAL_SPAWNER_DETECTED_PLAYER": {
+		"bedrockId": "minecraft:trial_spawner_detection"
+	},
+	"TRIAL_SPAWNER_DETECTED_PLAYER_OMINOUS": {
+		"bedrockId": "minecraft:trial_spawner_detection_ominous"
+	},
 	"UNDERWATER": {
 		"bedrockId": "geyseropt:underwater"
+	},
+	"VAULT_CONNECTION": {
+		"eventType": "VAULT_CONNECTION"
 	},
 	"VIBRATION": {
 		"eventType": "VIBRATION_SIGNAL"
@@ -320,6 +364,9 @@
 	},
 	"WHITE_ASH": {
 		"bedrockId": "geyseropt:white_ash"
+	},
+	"WHITE_SMOKE": {
+		"eventType": "WHITE_SMOKE"
 	},
 	"WITCH": {
 		"eventType": "WITCH_SPELL"
